@@ -1,2 +1,8 @@
-langchain-openai 
-langgraph
+# requirements.txt
+# Dependencies for WhatsApp Birthday AI Agent
+
+# Core LangChain components
+langchain-openai>=0.1.0
+langgraph>=0.1.0
+python-dotenv>=1.0.0
+ipykernel
