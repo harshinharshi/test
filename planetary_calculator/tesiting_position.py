@@ -1,19 +1,19 @@
 # demo_runner.py
 
-from planetary_calculator import calculate_planetary_positions
+from planetary_position_calculator import calculate_planetary_positions
 
 
 def main():
     # Dummy input values
-    birth_year = "1990"
-    birth_month = "5"
-    birth_day = "15"
-    birth_hour = "14"
-    birth_minute = "30"
-    district = "Mumbai"
-    state = "Maharashtra"
+    birth_year = "1998"
+    birth_month = "9"
+    birth_day = "12"
+    birth_hour = "23"
+    birth_minute = "49"
+    district = "kannur"
+    state = "kerala"
     country = "India"
-    user_name = "TestUser"
+    user_name = "Harshin"
 
     # Call planetary position calculation
     result = calculate_planetary_positions(

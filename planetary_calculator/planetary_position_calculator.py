@@ -4,8 +4,8 @@ Handles the integration between user input and the astrology calculation engine.
 """
 
 from typing import List, Dict, Any
-from planetary_calculator.location_resolver import LocationResolver
-from planetary_calculator.vedic_calculator_engine import VedicCalculatorEngine
+from location_resolver import LocationResolver
+from vedic_calculator_engine import VedicCalculatorEngine
 
 def calculate_planetary_positions(
     birth_year: str,

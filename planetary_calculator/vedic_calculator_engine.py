@@ -6,7 +6,7 @@ Handles all astronomical calculations and astrological computations.
 import swisseph as swe
 from datetime import datetime, timedelta
 from typing import List, Tuple, Dict
-from planetary_calculator.formatting_utils import PositionFormatter
+from formatting_utils import PositionFormatter
 
 class VedicCalculatorEngine:
     """
